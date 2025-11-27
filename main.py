@@ -1,9 +1,12 @@
 import requests, json, re, os
 # 机场的地址
 url = os.environ.get('URL')
+print('打印URL')
+print(url)
 # 配置用户名（一般是邮箱）
 
 config = os.environ.get('CONFIG')
+print('打印CONFIG')
 print(config)
 # server酱
 SCKEY = os.environ.get('SCKEY')
