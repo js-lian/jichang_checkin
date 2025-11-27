@@ -4,6 +4,7 @@ url = os.environ.get('URL')
 # 配置用户名（一般是邮箱）
 
 config = os.environ.get('CONFIG')
+print(config)
 # server酱
 SCKEY = os.environ.get('SCKEY')
 
